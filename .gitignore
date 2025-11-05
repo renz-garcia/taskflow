@@ -30,10 +30,6 @@ dist/
 *.egg-info/
 .eggs/
 
-# Django static files #
-staticfiles/
-static/
-
 # OS files #
 .DS_Store
 Thumbs.db
