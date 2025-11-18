@@ -1,0 +1,17 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'core/splash.css' %}">
+{% endblock %}
+{% block title %}TaskFlow - Productivity Made Simple{% endblock %}
+{% block content %}
+<div class="splash-container">
+    <p class="splash-subtitle">Welcome to</p>
+    <h1 class="splash-title">TaskFlow</h1>
+    <a href="#" class="btn-primary-action">Get Started</a>
+    <p class="auth-text">
+        Already have an account?
+        <a href="#" class="auth-link">Sign in</a>
+    </p>
+</div>
+{% endblock %}

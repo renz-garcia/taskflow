@@ -1,0 +1,41 @@
+.splash-container {
+    width: 408px;
+}
+
+.splash-subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+.splash-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 96px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.btn-primary-action {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.auth-text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-align: end;
+    margin: 0;
+}
+
+.auth-link {
+    text-decoration: none;
+}
